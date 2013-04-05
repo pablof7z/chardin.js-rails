@@ -9,7 +9,11 @@
 
 Add `chardinjs-rails` to your Gemfile and run `bundle install`:
 
-     gem "chardinjs-rails"
+```Ruby
+group :assets do
+  gem "chardinjs-rails"
+end
+```
 
 ### Include chardinjs-rails javascript assets
 
